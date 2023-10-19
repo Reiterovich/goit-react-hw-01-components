@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(187, 205, 207, 0.37);
+}
+
+.profile {
+  background-color: white;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 500px;
+}
+
+.description {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.stats {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
