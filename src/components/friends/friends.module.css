@@ -1,0 +1,37 @@
+.friendList {
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  width: 500px;
+  list-style: none;
+}
+
+.item {
+  padding: 10px;
+  display: flex;
+  border-style: inset;
+  gap: 20px;
+}
+
+.online {
+  background-color: green;
+  padding: 5px;
+  color: white;
+  border-radius: 50%;
+}
+
+.offline {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+.name {
+  font-style: italic;
+}

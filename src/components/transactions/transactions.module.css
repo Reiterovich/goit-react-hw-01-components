@@ -1,0 +1,16 @@
+.section {
+  background-color: white;
+  margin: auto;
+  padding: 50px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.transactionhistory {
+  border: 1px solid;
+  width: 100%;
+}
+
+.thead {
+  background-color: aqua;
+}

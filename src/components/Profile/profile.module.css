@@ -1,5 +1,7 @@
 body {
   background-color: rgba(187, 205, 207, 0.37);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .profile {

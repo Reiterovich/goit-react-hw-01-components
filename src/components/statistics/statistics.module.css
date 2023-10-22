@@ -1,10 +1,9 @@
 .statistics {
   background-color: white;
   margin: auto;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
   width: 500px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -15,21 +14,24 @@
 .statlist {
   display: flex;
   list-style: none;
-  padding-left: 0;
+  gap: 10px;
+  border: thick double #32a1ce;
+  padding: 5px;
 }
 
 .item {
   width: 100%;
-  border-radius: 10%;
-  background-color: aqua;
   height: 100px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 
 .label {
+  display: block;
+  font-weight: 500;
 }
 
 .percentage {
+  font-weight: 500;
 }
