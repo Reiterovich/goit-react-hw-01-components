@@ -8,9 +8,7 @@ body {
   background-color: white;
   margin: auto;
   padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 500px;
+  width: 600px;
 }
 
 .description {
@@ -32,6 +30,36 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
+  padding: 0;
+}
+
+.statsli {
+  border: 1px solid gray;
+  border-right: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+}
+
+.statsli:last-child {
+  border-right: 1px solid gray;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.quantity {
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  text-align: center;
 }

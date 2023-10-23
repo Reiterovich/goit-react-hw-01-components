@@ -9,6 +9,7 @@
 .item {
   padding: 10px;
   display: flex;
+  align-items: center;
   border-style: inset;
   gap: 20px;
 }
@@ -18,6 +19,8 @@
   padding: 5px;
   color: white;
   border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 .offline {
@@ -25,10 +28,12 @@
   padding: 5px;
   color: white;
   border-radius: 50%;
+  width: 10px;
+  height: 10px;
 }
 
 .avatar {
-  border-radius: 50%;
+  border-radius: 10%;
   background-color: aquamarine;
 }
 

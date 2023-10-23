@@ -13,17 +13,17 @@ export const User = props => {
       </div>
 
       <ul className={css.stats}>
-        <li>
-          <span className="label">Followers</span>
-          <span className="quantity"> {props.followers}</span>
+        <li className={css.statsli}>
+          <span className={css.label}>Followers</span>
+          <span className={css.quantity}> {props.followers}</span>
         </li>
-        <li>
-          <span className="label">Views</span>
-          <span className="quantity"> {props.views}</span>
+        <li className={css.statsli}>
+          <span className={css.label}>Views</span>
+          <span className={css.quantity}> {props.views}</span>
         </li>
-        <li>
-          <span className="label">Likes</span>
-          <span className="quantity"> {props.likes}</span>
+        <li className={css.statsli}>
+          <span className={css.label}>Likes</span>
+          <span className={css.quantity}> {props.likes}</span>
         </li>
       </ul>
     </div>
